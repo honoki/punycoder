@@ -1,15 +1,11 @@
 # coding=utf-8
 
-import subprocess as sub
 import sys
-import socket
 import os
 import idna
 
 class punicoder(object):
 
-  name = 'idnfinder'
-  expected_config_keys = ['domain']
   homoglyphs = {
 
     'a': ['а', 'Ꭺ'],
@@ -42,8 +38,7 @@ class punicoder(object):
   }
 
   '''
-  The execute function will be called by the Data Collector super class.
-  Make sure it stores output by using the self.output() function.
+  Execute the program.
   '''
   def execute(self, domain_name):
 
