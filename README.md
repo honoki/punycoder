@@ -1,4 +1,4 @@
-# punicoder
+# punycoder
 A script to automatically list visually indistinguishable permutations of domain names using IDN and punycode.
 
 Inspired by:
